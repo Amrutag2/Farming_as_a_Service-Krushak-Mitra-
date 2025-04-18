@@ -1,0 +1,42 @@
+.mr-auto my-2 my-lg-0 {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #EDF1D6;
+    font-weight: bold;
+  }
+  .togle {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    color: #EDF1D6;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 3px;
+    margin-left: 20px; /* Make the link a relative element */
+  }
+  
+  .togle::before {
+    content: ""; /* Add an empty content before the link text */
+    position: absolute; /* Position the pseudo-element absolutely */
+    bottom: -2px; /* Position it below the link */
+    left: 0; /* Position it to the left */
+    width: 100%; /* Make the width of the pseudo-element same as the link */
+    height: 5px; /* Set the height of the underline */
+    background: #F67280;
+    visibility: hidden; /* Hide the underline initially */
+    transform: scaleX(0); /* Scale the underline to zero */
+    transition: all 0.3s ease-in-out; /* Add a transition effect to the pseudo-element */
+  }
+  
+  .togle:hover::before {
+    visibility: visible; /* Make the pseudo-element visible on hover */
+    transform: scaleX(1); /* Scale the underline to its full width on hover */
+  }
+ .togle img{
+    background-color: #EDF1D6;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+ }

@@ -1,0 +1,29 @@
+.post-wrapper{
+    position: relative;
+    left:860px;
+    top:10px;
+    background-color:rgb(236, 242, 236);
+    border-radius: 5px;
+    height:400px;
+    width: 500px;
+    
+    padding: 15px;
+
+}
+.showpost-wrapper{
+    position: relative;
+    
+    background-color:rgb(236, 242, 236);
+    border-radius: 5px;
+    height:auto;
+    width: 800px;
+    top:-480px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.postgetapi{
+    background-color: rgb(206, 216, 194);
+    position: relative;
+    
+}
