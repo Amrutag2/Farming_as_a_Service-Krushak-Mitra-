@@ -1,3 +1,36 @@
+# 🌾 Farming as a Service
+
+A prototype web application designed to connect farmers with digital solutions through an admin-side management system. This platform helps manage users, products, and a chatbot interface to enhance user experience and streamline agricultural services.
+
+## 📅 Duration
+**February 2023 – May 2023**
+
+## 👩‍💻 Role
+**Web Developer and Team Mentor**
+
+- Led a small development team, conducted code reviews, and guided implementation of frontend and backend components.
+- Collaborated on system architecture and ensured smooth integration between services.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **Backend:** Node.js, Express.js (as a proxy server)  
+- **Database:** MongoDB  
+- **APIs:** RESTful Web APIs  
+- **Chatbot Integration:** Custom chatbot module for farmer interaction  
+
+---
+
+## 🔧 Features
+
+- **Admin Dashboard**: Central hub for managing all system data and interactions.
+- **User Management**: Add, update, delete, and view users.
+- **Product Management**: Full CRUD operations for agricultural products.
+- **Chatbot Integration**: Inter
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
